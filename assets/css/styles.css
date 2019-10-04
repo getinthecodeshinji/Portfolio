@@ -1,0 +1,168 @@
+body {
+    width: 100%;
+    font-family: forma-djr-banner, sans-serif;
+    letter-spacing: 1px;
+    
+}
+
+.heading {
+    position: fixed;
+    top: 4vh;
+    left: 10%;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.container-fluid {
+    position: absolute;
+    width: calc(80% + 30px);
+    top: 40%;
+    left: calc(10% - 15px);
+}
+
+./*nav {
+    position: fixed;
+    width: 80%;
+    height: 50px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0,0,1);
+    border: solid 4px;
+    border-color: #000;
+    z-index: 2;
+    margin: 10px auto;
+}
+
+.nav-item {
+    text-align: center;
+    width: 33.3%;
+    height: 100%;
+}
+
+.nav-item a {
+    color: #fff;
+}
+
+.nav-item a.active {
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+}*/
+
+
+/*IMAGES*/
+#images{
+      
+
+}
+
+.image-col{
+    max-width: 533px;
+}
+.image-col:nth-child(2){
+    margin-top: 100px;
+}
+.image-container {
+    margin-bottom: 30px;
+    padding: 0;
+    max-width: 640px
+}
+
+.image{
+}
+
+#info,
+#films {
+    max-width: 800px;
+}
+
+#info {
+    font-weight: 300;
+}
+
+.film-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    /*16:9 ratio}*/
+    background-color: #000;
+    margin-bottom: 35px;
+}
+
+.film {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    top: 0;
+    left: 0;
+}
+
+.email {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* Media Qs */
+
+@media (min-width: 640px){
+ 
+...
+ 
+}
+ 
+@media (min-width: 768px){
+ 
+...
+ 
+}
+ 
+@media (min-width: 1024px){
+ 
+...
+ 
+}
+ 
+@media (min-width: 1200px){
+ 
+...
+ 
+}
+
+/*
+    Open Studio
+
+
+*/
+
+#os {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.tab-container {
+    margin-top: 80px;
+    font-family: Courier;
+    letter-spacing: normal;
+    clear: both;
+    white-space: pre-wrap;
+}
+
+
+}
+.thoughts-container h5 {
+    margin-bottom: 40px;
+}
+.thoughts {}
